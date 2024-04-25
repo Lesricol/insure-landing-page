@@ -1,0 +1,28 @@
+@use '../mixins/pseudo.scss' as *;
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  margin-bottom: 140px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.features-container {
+  position: relative;
+  padding-top: 40px;
+}
+.features-container::after {
+  @include pseudo {
+    width: 150px;
+    height: 1px;
+    top: 0;
+    left: 89px;
+    background-color: #c396c6;
+  }
+}

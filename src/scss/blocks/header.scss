@@ -1,0 +1,17 @@
+@use '../mixins/pseudo.scss' as *;
+
+.header {
+  position: relative;
+  overflow-x: clip;
+}
+
+.header::after {
+  @include pseudo {
+    width: 377px;
+    height: 352px;
+    right: -252px;
+    top: 877px;
+    background-image: url(/assets/images/bg-pattern-intro-right-mobile.svg);
+    background-repeat: no-repeat;
+  }
+}

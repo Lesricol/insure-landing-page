@@ -2,11 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link
-      rel="shortcut icon"
-      href="./assets/images/favicon-32x32.png"
-      type="image/png"
-    />
+    <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/png" />
     <link rel="icon" type="image/svg+xml" href="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,12 +18,7 @@
     <header class="header">
       <div class="top-bar">
         <img src="./assets/images/logo.svg" alt="logo" />
-        <img
-          id="button-menu"
-          class="icon-menu"
-          src="./assets/images/icon-hamburger.svg"
-          alt="menu"
-        />
+        <img id="button-menu" class="icon-menu" src="./assets/images/icon-hamburger.svg" alt="menu" />
       </div>
       <nav class="nav">
         <ul id="menu" class="menu">
@@ -40,34 +31,72 @@
           <li class="menu__item">
             <a href="#" class="menu__link">ACCOUNT</a>
           </li>
-          <li class="menu__item menu__item--border">
-            <a href="#" class="menu__link menu__link">VIEW PLANS</a>
+          <li class="menu__item">
+            <a href="#" class="menu__link menu__link--border">VIEW PLANS</a>
           </li>
         </ul>
       </nav>
       <div class="info-image">
         <picture>
-          <source
-            media="(min-width: 1068px)"
-            srcset="./assets/images/image-intro-desktop.jpg"
-          />
-          <source
-            media="(min-width: 360px)"
-            srcset="./assets/images/image-intro-mobile.jpg"
-          />
+          <source media="(min-width: 1068px)" srcset="./assets/images/image-intro-desktop.jpg" />
+          <source media="(min-width: 360px)" srcset="./assets/images/image-intro-mobile.jpg" />
           <img src="./assets/images/image-intro-mobile.jpg" alt="" />
         </picture>
         <article class="card-top">
-          <h1 class="title title--xl">Humanizing your insurance.</h1>
+          <h1 class="title title--xl title--white">Humanizing your insurance.</h1>
           <p class="text text--white">
-            Get your life insurance coverage easier and faster. We blend our
-            expertise and technology to help you find the plan that’s right for
-            you. Ensure you and your loved ones are protected.
+            Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find
+            the plan that’s right for you. Ensure you and your loved ones are protected.
           </p>
           <a class="button" href="#">VIEW PLANS</a>
         </article>
       </div>
     </header>
+    <main class="main">
+      <article class="features-container">
+        <h2 class="title title--xl title--black">We’re different</h2>
+        <div class="features">
+          <div class="feature">
+            <img class="icon-feature" src="./assets/images/icon-snappy-process.svg" alt="snapy" />
+            <h3 class="title title--m">Snappy Process</h3>
+            <p class="text text--black">
+              Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.
+            </p>
+          </div>
+          <div class="feature">
+            <img class="icon-feature" src="./assets/images/icon-affordable-prices.svg" alt="affordable" />
+            <h3 class="title title--m">Affordable Prices</h3>
+            <p class="text text--black">
+              We don’t want you worrying about high monthly costs. Our prices may be low, but we still offer the best
+              coverage possible.
+            </p>
+          </div>
+          <div class="feature">
+            <img class="icon-feature" src="./assets/images/icon-people-first.svg" alt="people" />
+            <h3 class="title title--m">People First</h3>
+            <p class="text text--black">
+              Our plans aren’t full of conditions and clauses to prevent payouts. We make sure you’re covered when you
+              need it.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="card-main">
+        <h1 class="title title--l title--white">Find out more about how we work</h1>
+        <a class="button" href="#">HOW WE WORK</a>
+      </article>
+    </main>
+    <footer>
+      <div>
+        <img src="./assets/images/logo.svg" alt="logo" />
+        <div>
+          <img src="./assets/images/icon-facebook.svg" alt="facebook" />
+          <img src="./assets/images/icon-twitter.svg" alt="twitter" />
+          <img src="./assets/images/icon-pinterest.svg" alt="pinterest" />
+          <img src="./assets/images/icon-instagram.svg" alt="instagram" />
+        </div>
+      </div>
+    </footer>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
