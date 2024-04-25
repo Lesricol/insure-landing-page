@@ -1,1 +1,9 @@
-
+.text{
+    margin: 0;
+    font-family: "Karla", sans-serif;
+    line-height: 26px;
+    &--white{
+        color: var(--text-color-light);
+        margin-bottom: 32px;
+    }
+}

@@ -1,1 +1,11 @@
-
+.title{
+    font-family: "DM Serif Display", serif;
+    margin: 0;
+    &--xl{
+        font-size: 3rem;
+        line-height: 48px;
+        letter-spacing: -0.67px;
+        color: var(--text-color-light);
+        margin-bottom: 1rem;
+    }
+}
