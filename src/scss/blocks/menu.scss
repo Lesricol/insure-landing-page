@@ -1,17 +1,17 @@
-@use '../mixins/responsive.scss' as *;
-@use '../mixins/hover.scss' as *;
+@use "../mixins/responsive.scss" as *;
+@use "../mixins/hover.scss" as *;
 
 .icon-menu {
   position: absolute;
   right: 24px;
   top: 24px;
   z-index: 10;
-  @include responsive(desktop) {
+  @include responsive(laptop) {
     display: none;
   }
 }
 .menu {
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: 700;
   font-size: 1.25rem;
   line-height: 40px;
@@ -41,36 +41,47 @@
   }
   &__item {
     width: 100%;
-    @include responsive(desktop) {
+    @include responsive(laptop) {
       width: auto;
     }
   }
   &__link {
     font-size: 1.125rem;
     line-height: 24px;
+    @include responsive(laptop) {
+      font-size: 0.8125rem;
+      letter-spacing: 1.5px;
+      color: var(--text-color);
+    }
 
     &--border {
       display: inline-block;
       width: 100%;
       padding: 9px 0 7px;
       border: 1px solid white;
-    }
-    @include hover {
-      color: var(--primary-color);
+      @include responsive(laptop) {
+        border: 1.5px solid #2c2830;
+        padding: 13px 28.5px 12px;
+        color: #2c2830;
+      }
     }
   }
-  @include responsive(desktop) {
+  @include responsive(laptop) {
     translate: 0;
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 1.5625rem;
     height: auto;
+    width: fit-content;
+    color: var(--text-color);
     padding: 0;
-    top: 94px;
+    top: 13px;
     right: 165px;
+    background-color: transparent;
+    background-image: none;
   }
 }
 .nav {
-  @include responsive(desktop) {
+  @include responsive(laptop) {
     margin-left: auto;
   }
 }
@@ -78,4 +89,7 @@
 .top-bar {
   position: relative;
   padding: 31px 0 31px 24px;
+  @include responsive(laptop) {
+    padding: 31px 0 31px 165px;
+  }
 }

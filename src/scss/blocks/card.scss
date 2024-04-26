@@ -1,3 +1,5 @@
+@use "../mixins/responsive.scss" as *;
+@use "../mixins/pseudo.scss" as *;
 .card-top {
   text-align: center;
   background-color: var(--primary-color);
@@ -5,6 +7,24 @@
   background-repeat: no-repeat;
   padding: 93px 24px;
   margin-bottom: 181px;
+  @include responsive(laptop) {
+    position: relative;
+    padding: 169px 165px 127px;
+    text-align: left;
+    margin-bottom: 305px;
+    background-image: none;
+  }
+  &::after {
+    @include pseudo {
+      width: 697px;
+      height: 560px;
+      left: 1005px;
+      top: 0px;
+      background-image: url(/assets/images/bg-pattern-intro-right-desktop.svg);
+      background-repeat: no-repeat;
+      z-index: 10;
+    }
+  }
 }
 .card-main {
   text-align: center;

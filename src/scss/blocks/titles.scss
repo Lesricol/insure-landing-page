@@ -1,5 +1,6 @@
+@use "../mixins/responsive.scss" as *;
 .title {
-  font-family: 'DM Serif Display', serif;
+  font-family: "DM Serif Display", serif;
   margin: 0;
   color: var(--neutral-color);
   &--xl {
@@ -10,6 +11,9 @@
   &--white {
     color: var(--text-color-light);
     margin-bottom: 1rem;
+    @include responsive(laptop) {
+      width: 540px;
+    }
   }
   &--black {
     text-align: center;
@@ -24,5 +28,13 @@
     font-size: 1.75rem;
     letter-spacing: -0.39px;
     margin-bottom: 16px;
+  }
+  &--s {
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 0.8125rem;
+    letter-spacing: 1.5px;
+    color: var(--text-color);
+    margin-bottom: 36px;
   }
 }

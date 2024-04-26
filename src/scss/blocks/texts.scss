@@ -1,9 +1,13 @@
-.text{
-    margin: 0;
-    font-family: "Karla", sans-serif;
-    line-height: 26px;
-    &--white{
-        color: var(--text-color-light);
-        margin-bottom: 32px;
+@use "../mixins/responsive.scss" as *;
+.text {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  line-height: 26px;
+  &--white {
+    color: var(--text-color-light);
+    margin-bottom: 32px;
+    @include responsive(laptop) {
+      width: 540px;
     }
+  }
 }
