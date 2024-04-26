@@ -1,7 +1,17 @@
+@use '../mixins/responsive.scss' as *;
+
 .lists {
   display: grid;
   gap: 2.5rem;
+  @include responsive(laptop) {
+    grid-template-columns: repeat(4, 255px);
+    width: 1110px;
+    gap: 1.875rem;
+  }
 }
 .list {
   text-align: center;
+  @include responsive(laptop) {
+    text-align: left;
+  }
 }

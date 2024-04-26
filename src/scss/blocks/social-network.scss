@@ -1,3 +1,5 @@
+@use '../mixins/responsive.scss' as *;
+
 .social-container {
   display: flex;
   flex-direction: column;
@@ -6,9 +8,17 @@
   padding-bottom: 40px;
   border-bottom: 1px solid #dadada;
   margin-bottom: 2.5rem;
+  @include responsive(laptop) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 .social-network {
   display: flex;
   gap: 1rem;
+
+  & > *:hover {
+    filter: brightness(0);
+  }
 }

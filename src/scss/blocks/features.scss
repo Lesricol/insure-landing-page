@@ -1,9 +1,14 @@
 @use '../mixins/pseudo.scss' as *;
+@use '../mixins/responsive.scss' as *;
 .features {
   display: flex;
   flex-direction: column;
   gap: 3.5rem;
   margin-bottom: 140px;
+  @include responsive(laptop) {
+    flex-direction: row;
+    margin-bottom: 158px;
+  }
 }
 
 .feature {
@@ -11,6 +16,10 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  @include responsive(laptop) {
+    text-align: left;
+    align-items: start;
+  }
 }
 
 .features-container {

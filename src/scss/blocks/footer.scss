@@ -1,6 +1,12 @@
+@use '../mixins/responsive.scss' as *;
+
 .footer {
   padding: 88px 24px;
   background-color: #fafafa;
   background-image: url(/assets/images/bg-pattern-footer-mobile.svg);
   background-repeat: no-repeat;
+  @include responsive(laptop) {
+    padding: 64px 165px;
+    background-image: url(/assets/images/bg-pattern-footer-desktop.svg);
+  }
 }

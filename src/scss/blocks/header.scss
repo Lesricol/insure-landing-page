@@ -1,5 +1,5 @@
-@use "../mixins/pseudo.scss" as *;
-@use "../mixins/responsive.scss" as *;
+@use '../mixins/pseudo.scss' as *;
+@use '../mixins/responsive.scss' as *;
 
 .header {
   position: relative;
@@ -15,12 +15,11 @@
     background-image: url(/assets/images/bg-pattern-intro-right-mobile.svg);
     background-repeat: no-repeat;
     @include responsive(laptop) {
-      width: 649px;
-      height: 697px;
+      width: 300px;
+      height: 600px;
       top: 494px;
-      left: -503px;
-      background-image: url(/assets/images/bg-pattern-intro-right-desktop.svg);
-      rotate: -180deg;
+      left: 0px;
+      background-image: url(/assets/images/Group-desktop.svg);
     }
   }
 }

@@ -1,5 +1,5 @@
-@use "../mixins/responsive.scss" as *;
-@use "../mixins/pseudo.scss" as *;
+@use '../mixins/responsive.scss' as *;
+@use '../mixins/pseudo.scss' as *;
 .card-top {
   text-align: center;
   background-color: var(--primary-color);
@@ -34,4 +34,12 @@
   background-position: right top;
   padding: 72px 24px;
   margin-bottom: 140px;
+  @include responsive(laptop) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 69px 81px;
+    text-align: left;
+    margin-bottom: 150px;
+  }
 }

@@ -1,5 +1,5 @@
-@use "../mixins/responsive.scss" as *;
-@use "../mixins/hover.scss" as *;
+@use '../mixins/responsive.scss' as *;
+@use '../mixins/hover.scss' as *;
 
 .icon-menu {
   position: absolute;
@@ -11,7 +11,7 @@
   }
 }
 .menu {
-  font-family: "Karla", sans-serif;
+  font-family: 'Karla', sans-serif;
   font-weight: 700;
   font-size: 1.25rem;
   line-height: 40px;
@@ -53,6 +53,9 @@
       letter-spacing: 1.5px;
       color: var(--text-color);
     }
+    @include hover {
+      color: #2c2830;
+    }
 
     &--border {
       display: inline-block;
@@ -63,6 +66,10 @@
         border: 1.5px solid #2c2830;
         padding: 13px 28.5px 12px;
         color: #2c2830;
+      }
+      @include hover {
+        background-color: #2c2830;
+        color: white;
       }
     }
   }
