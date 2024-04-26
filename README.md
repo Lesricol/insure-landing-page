@@ -1,6 +1,6 @@
-# Título del proyecto
+Insure landing page
 
-![Imagen del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/IMAGEN-DEL-PROYECTO.jpg?raw=true)
+![Imagen del proyecto](https://raw.githubusercontent.com/Lesricol/insure-landing-page/main/design/desktop-preview.jpg)
 
 ## Ejemplo en vivo
 
@@ -9,11 +9,11 @@
 
 ## Descripción 📑
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, ipsum ipsam debitis ducimus dolorum placeat? Consectetur, soluta vero. Accusamus iure est pariatur, doloremque nam cumque natus unde adipisci laborum ut. At id sapiente consequatur earum. Magnam doloribus, voluptate zumito doloremque obcaecati vel excepturi numquam cupiditate ipsam quisquam!
+Página en la que realicé un menu animado con sass
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, ipsum ipsam debitis ducimus dolorum placeat? Consectetur, soluta vero. Accusamus iure est pariatur, doloremque nam cumque natus unde adipisci laborum ut. At id sapiente consequatur earum. Magnam doloribus, voluptate zumito doloremque obcaecati vel excepturi numquam cupiditate ipsam quisquam!
+Con este proyecto mejoré la manera en la que hago un menu animado, la propiedad grid y trabajar con muchos archivo en sass
 
 ## Tecnologías 🛠
 
@@ -27,21 +27,22 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, 
 
 Si quieres echar un vistazo al proyecto, te recomiendo:
 
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
+![Captura del proyecto](https://raw.githubusercontent.com/Lesricol/insure-landing-page/main/design/desktop-design.jpg)
+![Captura del proyecto](https://raw.githubusercontent.com/Lesricol/insure-landing-page/main/design/active-states.jpg)
+![Captura del proyecto](https://raw.githubusercontent.com/Lesricol/insure-landing-page/main/design/mobile-design.jpg)
+![Captura del proyecto](https://raw.githubusercontent.com/Lesricol/insure-landing-page/main/design/mobile-nav-design.jpg)
 
 ## Autor ✒️
 
-**TU NOMBRE**
+Victor Rico (lesricol)
 
-- [micorreo@midominio.com](micorreo@midominio.com)
-- [LinkedIn](https://www.linkedin.com/in/tu-url-de-linkedin/)
-- [Porfolio web](https://tu-dominio.com/)
+- [lessricc@gmail.com]
+- [https://www.linkedin.com/in/victor-rico-varela]
+
 
 ## Instalación
 
-Este proyecto no necesita de instalación. Simplemente abre la carpeta o haz doble click en el .html
+Este proyecto necesita de instalación. npm install y npm run preview
 
 ## Licencia 📄
 
