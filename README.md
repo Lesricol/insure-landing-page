@@ -9,7 +9,7 @@ Insure landing page
 
 ## Descripción 📑
 
-Página en la que realicé un menu animado con sass
+Es una página que ofrece seguros de forma fácil y rápido. Siendo diferentes al resto con procesos ágiles, precios asequibles y demostrando que el cliente es prioridad
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻
 
